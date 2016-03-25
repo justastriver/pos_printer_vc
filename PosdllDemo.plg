@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PosdllDemo - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/PosdllDemo.res" /d "_DEBUG" /d "_AFXDLL" "F:\备份资料\上位机\测试工具\POSDLLDemo_VC\PosdllDemo.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP29.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PosdllDemo.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\LoadDll.cpp"
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\PosdllDemo.cpp"
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\PosdllDemoDlg.cpp"
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\PrintSamples.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP29.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/PosdllDemo.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2A.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/PosdllDemo.pdb" /debug /machine:I386 /out:"Debug/PosdllDemo.exe" /pdbtype:sept 
+".\Debug\LoadDll.obj"
+".\Debug\PosdllDemo.obj"
+".\Debug\PosdllDemoDlg.obj"
+".\Debug\PrintSamples.obj"
+".\Debug\StdAfx.obj"
+".\Debug\PosdllDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LoadDll.cpp
+PosdllDemo.cpp
+PosdllDemoDlg.cpp
+PrintSamples.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/PosdllDemo.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\LoadDll.sbr" ".\Debug\PosdllDemo.sbr" ".\Debug\PosdllDemoDlg.sbr" ".\Debug\PrintSamples.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+PosdllDemo.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: PosdllDemo - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/PosdllDemo.res" /d "NDEBUG" "F:\备份资料\上位机\测试工具\POSDLLDemo_VC\PosdllDemo.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/PosdllDemo.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\LoadDll.cpp"
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\PosdllDemo.cpp"
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\PosdllDemoDlg.cpp"
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\PrintSamples.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/PosdllDemo.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\备份资料\上位机\测试工具\POSDLLDemo_VC\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PosdllDemo.pdb" /machine:I386 /out:"Release/PosdllDemo.exe" 
+".\Release\LoadDll.obj"
+".\Release\PosdllDemo.obj"
+".\Release\PosdllDemoDlg.obj"
+".\Release\PrintSamples.obj"
+".\Release\StdAfx.obj"
+".\Release\PosdllDemo.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+LoadDll.cpp
+PosdllDemo.cpp
+PosdllDemoDlg.cpp
+PrintSamples.cpp
+Generating Code...
+Linking...
+LINK : warning LNK4089: all references to "SHELL32.dll" discarded by /OPT:REF
+
+
+
+<h3>Results</h3>
+PosdllDemo.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
